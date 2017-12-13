@@ -18,4 +18,4 @@ spring:
     suffix: .ftl 
 mybatis:
   typeAliasesPackage: com.sgh.demo.domain
-  mapperLocations: classpath:mapper/*.xml 
+  mapperLocations: classpath:mapper/*.xml

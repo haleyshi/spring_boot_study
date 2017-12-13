@@ -34,3 +34,9 @@ http://localhost:9094/api/city/search?pageNumber=0&pageSize=10&searchContent=Gua
 
 http://localhost:9095/api/city
 http://localhost:9095/api/city/1
+
+## Spring Boot Central Exception Handlers + ThymeLeaf
+
+http://localhost:9150
+http://localhost:9150/hello
+http://localhost:9150/json
