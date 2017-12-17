@@ -1,0 +1,5 @@
+server:
+  port: 9152
+spring:
+  application:
+    name: springboot-struts2-demo
