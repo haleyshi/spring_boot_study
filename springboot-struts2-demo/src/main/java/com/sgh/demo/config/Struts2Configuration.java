@@ -13,9 +13,10 @@ public class Struts2Configuration {
     public FilterRegistrationBean someFilterRegistration() {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(new StrutsPrepareAndExecuteFilter());
-        registration.addUrlPatterns("*.action");
+        //registration.addUrlPatterns("*.action");
         registration.setDispatcherTypes(DispatcherType.REQUEST, DispatcherType.FORWARD);
         registration.setName("StrutsPrepareAndExecuteFilter");
+        registration.setOrder(1);
         return registration;
     }
 
