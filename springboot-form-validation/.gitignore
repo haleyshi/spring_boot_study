@@ -1,0 +1,10 @@
+.project
+
+.settings/
+
+target/
+.classpath
+*.jar
+.DS_Store
+.springBeans
+.springWebflow
