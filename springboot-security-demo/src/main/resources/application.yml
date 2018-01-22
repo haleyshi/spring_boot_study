@@ -1,0 +1,9 @@
+server:
+  port: 9301
+spring:
+  application:
+    name: springboot-form-validation
+logging:
+  level:
+    org.springframework.security: DEBUG
+    com.sgh.demo: DEBUG
